@@ -20,7 +20,7 @@ export const TasksApp = () => {
     console.log({state});
 
     //grabar el contenido en sessionStorage
-    localStorage.setItem('task-state', JSON.stringify(state)); //stingify convierte el objeto state a una cadena de texto para poder guardarlo en localStorage
+    localStorage.setItem('task-state', JSON.stringify(state)); //stringify convierte el objeto state a una cadena de texto para poder guardarlo en localStorage
 
   },[state]);//cada vez que el estado cambie [state], se ejecuta este efecto y muestra el estado actual en la consola
 

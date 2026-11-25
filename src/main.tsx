@@ -10,6 +10,7 @@ import './index.css'
 import { TasksApp } from './05-useReducer/TaskApp'
 import { ScrambleWords } from './05-useReducer/reducer/ScrambleWords'
 import { TrafficLight } from './01-useState/TrafficLight'
+import { MemoHook } from './06-memos/memoHook'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -19,7 +20,8 @@ createRoot(document.getElementById('root')!).render(
     {/*<TrafficLightWithHook/>*/}
     {/*<PokemonPage/>*/}
     {/*<FocusScreen/>*/}
-    {<TasksApp/>}
+    {/*<TasksApp/>*/}
     {/*<ScrambleWords/>*/}
+    {<MemoHook/>}
   </StrictMode>
 )
